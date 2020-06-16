@@ -65,18 +65,7 @@ public:
 		}
 		cin.get();
 	}
-	/*void SetGame()
-	{
-		HANDLE hOut = GetStdHandle(STD_OUTPUT_HANDLE);
-		cout << " ―――  ―――― ――― ―――  ――  ―     ―  ―――   ――― " << endl;
-		cout << "―    ― ―         ―     ―     ―   ――   ― ―    ― ―    ―" << endl;
-		cout << "―       ―         ―     ―     ―   ― ―  ― ―       ―     " << endl;
-		cout << " ―――  ―――     ―     ―     ―   ―  ― ― ―  ――  ――― " << endl;
-		cout << "      ― ―         ―     ―     ―   ―   ―― ―    ―       ―" << endl;
-		cout << "―    ― ―         ―     ―     ―   ―     ― ―    ― ―    ―" << endl;
-		cout << " ―――  ――――   ―     ―    ――  ―     ―  ―――   ――― " << endl;
-		Point::SetOutputPosition(9, 15, hOut);
-	}*/
+	
 	void PaintEdge()
 	{
 		HANDLE hOut = GetStdHandle(STD_OUTPUT_HANDLE);
